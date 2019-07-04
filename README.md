@@ -2,18 +2,15 @@
 
 ## Installation
 ```
-npm install sgds-govtech-vue --save
+npm install sgds-govtech-vue sgds-govtech --save
 ```
 ## Usage
 ```
 //In your main.js file
 
 import 'sgds-govtech/sass/sgds.scss' //styling
-import Components from 'sgds-govtech-vue';
+import 'sgds-govtech-vue';
 
-Object.entried(Components).forEach((name, component) => {
-    Vue.component(name, component);
-});
 ```
 ## Components 
 ### Accordion
