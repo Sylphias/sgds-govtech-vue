@@ -1,10 +1,11 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
 
-import 'sgds-govtech/sass/sgds.scss'
+import "sgds-govtech/css/sgds.css";
+import "animate.css/animate.min.css";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: h => h(App)
+}).$mount("#app");
