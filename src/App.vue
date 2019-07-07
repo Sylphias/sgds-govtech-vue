@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { SgdsAccordion, SgdsAccordionSet } from "./libraryExport";
+import { SgdsAccordion, SgdsAccordionSet } from "./rollupExport";
 
 export default {
   name: "app",

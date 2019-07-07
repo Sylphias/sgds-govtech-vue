@@ -1,5 +1,5 @@
 <template>
-  <div class="sgds-accordion-set">
+  <div class="sgds-accordion">
     <a class="sgds-accordion-header" v-on:click="open = !open" v-bind:class="{ 'active': open }">
       <h5>{{ title }}</h5>
       <i
@@ -18,7 +18,7 @@
 <script>
 import Velocity from "velocity-animate";
 export default {
-  name: "SgdsAccordionSet",
+  name: "SgdsAccordion",
   props: {
     title: {
       type: String,
