@@ -14,6 +14,7 @@ import 'sgds-govtech-vue';
 
 ```
 ## Components 
+Coming soon: Nav, Tabs, Dropdown, Language Selector
 ### Accordion
 Example
 ```
