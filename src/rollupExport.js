@@ -1,9 +1,15 @@
-import SgdsAccordion from './components/SgdsAccordion.vue';
-import SgdsAccordionSet from "./components/SgdsAccordionSet.vue";
+import SgdsAccordion from './components/accordion/SgdsAccordion.vue';
+import SgdsAccordionSet from "./components/accordion/SgdsAccordionSet.vue";
+import SgdsDropdown from './components/dropdown/SgdsDropdown';
+import SgdsDropdownItem from './components/dropdown/SgdsDropdownItem';
+import SgdsDropdownDivider from './components/dropdown/SgdsDropdownDivider';
 
 const Components = {
     SgdsAccordion,
-    SgdsAccordionSet
+    SgdsAccordionSet,
+    SgdsDropdown,
+    SgdsDropdownItem,
+    SgdsDropdownDivider
 };
 
 // Declare install function executed by Vue.use()
@@ -34,5 +40,8 @@ if (GlobalVue) {
 // To allow use as module (npm/webpack/etc.) export components
 export {
     SgdsAccordion,
-    SgdsAccordionSet
+    SgdsAccordionSet,
+    SgdsDropdown,
+    SgdsDropdownItem,
+    SgdsDropdownDivider
 };

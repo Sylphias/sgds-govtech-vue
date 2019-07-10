@@ -10,7 +10,7 @@ const Components = {
     SgdsAccordionSet,
     SgdsDropdown,
     SgdsDropdownItem,
-SgdsDropdownDivider
+    SgdsDropdownDivider
 };
 
 Object.keys(Components).forEach(name => {

@@ -1,5 +1,4 @@
 import Vue from 'vue';
-import KeyCodes from "../../utils/key-codes";
 
 const props = {
     href: {
