@@ -63,20 +63,17 @@
 </template>
 
 <script>
-import SgdsAccordion from './components/accordion/SgdsAccordion.vue'
-import SgdsAccordionSet from './components/accordion/SgdsAccordionSet.vue'
-import SgdsDropdown from './components/dropdown/SgdsDropdown.js'
-import SgdsDropdownItem from './components/dropdown/SgdsDropdownItem.js'
-import SgdsDropdownDivider from './components/dropdown/SgdsDropdownDivider.js'
+import Components from './components';
 
 export default {
   name: "app",
   components: {
-    SgdsAccordion,
-    SgdsAccordionSet,
-    SgdsDropdown,
-    SgdsDropdownItem,
-    SgdsDropdownDivider
+    ...Components
+  },
+  methods: {
+    toggle(){
+      alert("hello");
+    }
   }
 };
 </script>
