@@ -9,7 +9,7 @@ Example
   <sgds-dropdown-item href="#">Item 4</sgds-dropdown-item>
 </sgds-dropdown>
 ```
-#### <sgds-dropdown>
+#### &lt; sgds-dropdown &gt;
 ##### Properties
 | Property  | Type | Default Value |
 | ------------- | ------------- | ------------- |
