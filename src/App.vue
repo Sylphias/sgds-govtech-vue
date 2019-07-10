@@ -4,6 +4,12 @@
       <div class="sgds-container">
         <div class="row">
           <div class="col">
+            <h4>Demo</h4>
+          </div>
+        </div>
+        <!--Accordion-->
+        <div class="row">
+          <div class="col">
             <h5>Accordion</h5>
             <h6 class="has-text-primary has-text-weight-semibold">
               Accordion is a graphical control element comprising a vertically stacked list of items, such as labels or
@@ -26,6 +32,34 @@
             </sgds-accordion>
           </div>
         </div>
+        <!--Dropdown-->
+        <div class="row">
+          <div class="col">
+            <h5>Dropdown</h5>
+            <h6 class="has-text-primary has-text-weight-semibold">
+              Dropdown Menu is a list of items that appear whenever a button is clicked or hovered.
+              This is a graphical approach presented to users from which they can choose a value from the list presented
+            </h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <sgds-dropdown>
+              <sgds-dropdown-item href="#">Item 1</sgds-dropdown-item>
+              <sgds-dropdown-item href="#">Item 2</sgds-dropdown-item>
+              <sgds-dropdown-item href="#">Item 3</sgds-dropdown-item>
+              <sgds-dropdown-divider></sgds-dropdown-divider>
+              <sgds-dropdown-item href="#">Item 4</sgds-dropdown-item>
+            </sgds-dropdown>
+            <sgds-dropdown text="Hover Me" hoverable>
+              <sgds-dropdown-item href="#">Item 1</sgds-dropdown-item>
+              <sgds-dropdown-item href="#">Item 2</sgds-dropdown-item>
+              <sgds-dropdown-item href="#">Item 3</sgds-dropdown-item>
+              <sgds-dropdown-divider></sgds-dropdown-divider>
+              <sgds-dropdown-item href="#">Item 4</sgds-dropdown-item>
+            </sgds-dropdown>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -33,14 +67,20 @@
 </template>
 
 <script>
-import SgdsAccordion from './components/SgdsAccordion.vue'
-import SgdsAccordionSet from './components/SgdsAccordionSet.vue'
+import SgdsAccordion from './components/accordion/SgdsAccordion.vue'
+import SgdsAccordionSet from './components/accordion/SgdsAccordionSet.vue'
+import SgdsDropdown from './components/dropdown/SgdsDropdown.js'
+import SgdsDropdownItem from './components/dropdown/SgdsDropdownItem.js'
+import SgdsDropdownDivider from './components/dropdown/SgdsDropdownDivider.js'
 
 export default {
   name: 'app',
   components: {
     SgdsAccordion,
-    SgdsAccordionSet
+    SgdsAccordionSet,
+    SgdsDropdown,
+    SgdsDropdownItem,
+    SgdsDropdownDivider
   }
 }
 </script>

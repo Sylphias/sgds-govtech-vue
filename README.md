@@ -1,4 +1,5 @@
 # sgds-govtech-vue
+Vue components powered by sgds. Inspired by bootstrap-vue
 
 ## Installation
 ```

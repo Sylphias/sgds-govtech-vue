@@ -1,10 +1,16 @@
 import Vue from "vue";
-import SgdsAccordion from "./SgdsAccordion";
-import SgdsAccordionSet from "./SgdsAccordionSet";
+import SgdsAccordion from "./accordion/SgdsAccordion";
+import SgdsAccordionSet from "./accordion/SgdsAccordionSet";
+import SgdsDropdown from "./dropdown/SgdsDropdown";
+import SgdsDropdownItem from "./dropdown/SgdsDropdownItem";
+import SgdsDropdownDivider from "./dropdown/SgdsDropdownDivider";
 
 const Components = {
     SgdsAccordion,
-    SgdsAccordionSet
+    SgdsAccordionSet,
+    SgdsDropdown,
+    SgdsDropdownItem,
+SgdsDropdownDivider
 };
 
 Object.keys(Components).forEach(name => {
