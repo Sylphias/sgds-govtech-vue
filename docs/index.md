@@ -1,3 +1,22 @@
+
+## Components 
+Coming soon: Nav, Tabs, Dropdown, Language Selector
+### Accordion
+Example
+```
+<sgds-accordion>
+  <sgds-accordion-set title="Header 1">
+    Content 1
+  </sgds-accordion-set>
+  <sgds-accordion-set title="Header 2" :visible="true">
+    Set visible to true to show the page content
+  </sgds-accordion-set>
+  <sgds-accordion-set title="Header 3">
+    Content 3
+  </sgds-accordion-set>
+</sgds-accordion>
+```
+
 ### Dropdown
 Example
 ```
@@ -9,18 +28,18 @@ Example
   <sgds-dropdown-item href="#">Item 4</sgds-dropdown-item>
 </sgds-dropdown>
 ```
-#### sgds-dropdown
+#### &lt;sgds-dropdown&gt;
 ##### Properties
 | Property  | Type | Default Value |
 | ------------- | ------------- | ------------- |
 |  text | String  | Select a value |
 | hoverable  | Boolean  | false |
-#####Events
+##### Events
 | Event  | Arguments | Description |
 | ------------- | ------------- | ------------- |
 | toggle  |   | Emitted when dropdown is clicked |
 
-#### sgds-dropdown-item
+#### &lt;sgds-dropdown-item&gt;
 ##### Properties
 | Property  | Type | Default Value |
 | ------------- | ------------- | ------------- |
@@ -28,7 +47,7 @@ Example
 | rel  | String  |  |
 | target  | String  | _self |
 | active  | Boolean  | false |
-#####Events
+##### Events
 | Event  | Arguments | Description |
 | ------------- | ------------- | ------------- |
 | click  |   | Emitted when item is clicked |
