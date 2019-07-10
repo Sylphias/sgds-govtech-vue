@@ -13,5 +13,6 @@ import 'sgds-govtech/sass/sgds.scss' //styling
 import 'sgds-govtech-vue';
 
 ```
-
+## Documentation
+[here](https://govtechsg.github.io/sgds-govtech-vue/)
 
