@@ -48,7 +48,7 @@ Example
 | ------------- | ------------- | ------------- |
 |  text | String  | Select a value |
 | hoverable  | Boolean  | false |
-#####Events
+##### Events
 | Event  | Arguments | Description |
 | ------------- | ------------- | ------------- |
 | toggle  |   | Emitted when dropdown is clicked |
@@ -61,7 +61,7 @@ Example
 | rel  | String  |  |
 | target  | String  | _self |
 | active  | Boolean  | false |
-#####Events
+##### Events
 | Event  | Arguments | Description |
 | ------------- | ------------- | ------------- |
 | click  |   | Emitted when item is clicked |
