@@ -1,5 +1,5 @@
 
-## Components 
+## Documentation 
 Coming soon: Nav, Tabs, Dropdown, Language Selector
 ### Accordion
 Example
