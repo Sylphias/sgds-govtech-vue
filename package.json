@@ -20,6 +20,7 @@
         "build:umd": "rollup --config rollup.config.js --format umd --file build/sgds-govtech-vue.umd.js",
         "build:unpkg": "rollup --config rollup.config.js --format iife --file build/sgds-govtech-vue.min.js",
         "lint": "vue-cli-service lint",
+        "prepublishOnly": "npm run build:lib",
         "serve": "vue-cli-service serve"
     },
     "browserslist": [
