@@ -1,8 +1,8 @@
 import SgdsAccordion from './components/accordion/SgdsAccordion.vue';
 import SgdsAccordionSet from "./components/accordion/SgdsAccordionSet.vue";
-import SgdsDropdown from './components/dropdown/SgdsDropdown';
-import SgdsDropdownItem from './components/dropdown/SgdsDropdownItem';
-import SgdsDropdownDivider from './components/dropdown/SgdsDropdownDivider';
+import SgdsDropdown from './components/dropdown/SgdsDropdown.vue';
+import SgdsDropdownItem from './components/dropdown/SgdsDropdownItem.vue';
+import SgdsDropdownDivider from './components/dropdown/SgdsDropdownDivider.vue';
 
 const Components = {
     SgdsAccordion,
@@ -45,3 +45,5 @@ export {
     SgdsDropdownItem,
     SgdsDropdownDivider
 };
+
+export default Components;
