@@ -14,7 +14,7 @@
     "unpkg": "build/sgds-govtech-vue.min.js",
     "module": "build/sgds-govtech-vue.esm.js",
     "scripts": {
-        "build:docs": "vue-cli-service build --dest docs",
+        "build:docs": "DEPLOY_ENV='gh-pages' vue-cli-service build --dest docs",
         "build:es": "rollup --config rollup.config.js --format es --file build/sgds-govtech-vue.esm.js",
         "build:lib": "rm -rf ./build && npm run build:umd & npm run build:es & npm run build:unpkg",
         "build:umd": "rollup --config rollup.config.js --format umd --file build/sgds-govtech-vue.umd.js",
